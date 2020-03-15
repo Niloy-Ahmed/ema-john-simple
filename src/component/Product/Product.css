@@ -1,5 +1,24 @@
 .product div img{
-    display: block;
+    display: flex;
     height: 200px;
     width: 200px;
+    
+}
+.product{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.product-name{
+    color: blue;
+    font-weight: 400px;
+}
+.mainBtn{
+    background-color: goldenrod;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
 }
